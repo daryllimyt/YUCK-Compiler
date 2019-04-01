@@ -1,0 +1,10 @@
+Warning in C:\Users\funct\Documents\Work\Compilers Coursework\langproc-2018-cw-YetUnotherCompilerKompiler\test\compiler\outputs\122.s line 3 column 1: MARS does not recognize the .ent directive.  Ignored.
+Warning in C:\Users\funct\Documents\Work\Compilers Coursework\langproc-2018-cw-YetUnotherCompilerKompiler\test\compiler\outputs\122.s line 10 column 1: MARS does not recognize the .frame directive.  Ignored.
+Warning in C:\Users\funct\Documents\Work\Compilers Coursework\langproc-2018-cw-YetUnotherCompilerKompiler\test\compiler\outputs\122.s line 11 column 1: MARS currently ignores the .set directive.
+Warning in C:\Users\funct\Documents\Work\Compilers Coursework\langproc-2018-cw-YetUnotherCompilerKompiler\test\compiler\outputs\122.s line 12 column 1: MARS does not recognize the .cpload directive.  Ignored.
+Warning in C:\Users\funct\Documents\Work\Compilers Coursework\langproc-2018-cw-YetUnotherCompilerKompiler\test\compiler\outputs\122.s line 13 column 1: MARS currently ignores the .set directive.
+Warning in C:\Users\funct\Documents\Work\Compilers Coursework\langproc-2018-cw-YetUnotherCompilerKompiler\test\compiler\outputs\122.s line 92 column 1: MARS does not recognize the .cprestore directive.  Ignored.
+Warning in C:\Users\funct\Documents\Work\Compilers Coursework\langproc-2018-cw-YetUnotherCompilerKompiler\test\compiler\outputs\122.s line 267 column 1: MARS does not recognize the .end directive.  Ignored.
+
+
+$v0	0x00000004

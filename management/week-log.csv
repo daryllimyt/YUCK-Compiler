@@ -1,0 +1,10 @@
+Week, Dates, EstimatedEffort, Effort, Deadlines
+4,  28 Jan - 3 Feb,8,4, 1-regexes_lab (29th Jan)
+5,  4 Feb - 10 Feb,10,4, RMI & UDP Computer Networks Lab (8th Feb)
+6,  11 Feb - 17 Feb,8,6, 2-parsers_lab (12th Feb) + Communication Lab Oral (12th Feb) + Databases SQL CW1 (15th Feb)
+7,  18 Feb - 24 Feb,8,35, None
+8,  25 Feb - 3 Mar,14,21, 3-codegen_lab (26th Feb) + Lexing Test (1st Mar) + Databes ER CW2 (1st Mar)
+9,  4 Mar - 10 Mar,24,24,  Parsing Test (8th Mar)
+10,  11 Mar - 17 Mar,20,36, Code Generation Test (15th Mar)
+11,  18 Mar - 24 Mar,22,57, Numerical Analysis CW (18th Mar)
+12, 25 Mar - 31 Mar,12,9, Compiler Project Due (26th Mar)

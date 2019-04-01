@@ -1,0 +1,19 @@
+MilestoneID,             Dependencies, EstimatedEffort, Lead,  Completed, Description
+DefineInitialMilestones,    None,   2, zl8615,  1c273509889dfe0cb927b5cd6ad6b53668ac5f5c,   Come up with initial milestones for getting started
+Basic_CLexer,    1-regexes_lab,   3,   ahs2117,   0100eadb296a65678a8ed5d795ea6e3c64a9b9aa,  Code a C-Lexer with basic functionality: identify most of the trivial tokens
+Basic_CParser,    2-parsers_lab,   3,   zl8615,   5f5fac60c570d7ffeba4a9bf4df83ccc0656483e, Code a C-Parser linking Bison and Flex code and that has basic fucntionality: parse trivial expressions/statements 
+Test_Basic_CParser,    Basic_CParser,   3,  ahs2117,   1ea7e23a6644dbb8253ed579ef248aed5d36ac4e,   The C-Parser must identify and group basic tokens that are C-legal and build an AST
+Intermediate_CLexer,    Basic_CLexer,   6,   ahs2117,   8e070e55a01105f605834b908dfb607d2d041bb5,  Improve on the C-Lexer with intermediate functionality
+Intermediate_CParser,    Basic_CParser,    6,    zl8615,   c0398e893f4e11d33280cd4e1356147e162c3723, Improve on the C-Parser with intermediate fucntionality
+Test_Intermediate_CParser,  Intermediate_CParser,   4,   ahs2117,   1ea7e23a6644dbb8253ed579ef248aed5d36ac4e, Able to group intermediate tokens that are C-legal and build an AST
+Advance_CLexer, Intermediate_CLexer,   8, ahs2117,   eb36ea349b1425718e1f197a7e3e0ff076246060,  Refine and finalise the C-Lexer with advance functionality
+Advance_CParser, Intermediate_CParser,   8,  zl8615,   f5810e5dfa57d169af1b5214322919e80ec668a4, Refine and finalise the C-Parser with advance fucntionality
+Test_Advance_CParser,   Advance_CParser,   8,   ahs2117,   1ea7e23a6644dbb8253ed579ef248aed5d36ac4e, Test the finalised C-Parser
+Understand_Python,  None,   6,   ahs2117,   N.A,   C-to-Python translator preparation
+C_Translator,    Understand_Python,   8,   ahs2117,   86d6a2ee372fc8c487495669ba6e0460e401c813, Create AST for translating C-to-Python using completed lexer and parser
+Test_C_Translator,   C_Translator,   12,   zl8615,   18280dc5ea5ee4b1ca8c2d162f898854e11aa2e7, Test C-to-Python translator
+Basic_CodeGen, 3-codegen_lab,   12,   zl8615,   b81f744ecc39b9027a4e46676b422cb2f30ee63e,  Create basic implementation of an Abstract Syntax Tree to MIPS ISA
+Intermediate_CodeGen,    Basic_CodeGen,   14,   ahs2117,   b81f744ecc39b9027a4e46676b422cb2f30ee63e, Improve on the CodeGen with intermediate functionality
+Advance_CodeGen,    Intermediate_CodeGen,   12,   ahs2117,  58496426749fef471ce85c8a4a1c76b78afcac40, Finalise CodeGen
+Initial_TestBench,    Advance_CodeGen,   6,   zl8615,   112bc96eeaa6a0912e896565af9c324bd6e65036,  Build bashscript for basic test cases 
+Final_TestBench,    Initial_TestBench,   10,   zl8615,   5ffe4994a6610204efbbfda2f4fa87c771dff017, Improve and finalise testbench
